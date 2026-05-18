@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Istanbul · June 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
 <style>
 :root{--cream:#faf7f2;--terracotta:#c4614a;--terracotta-light:#e8967f;--deep:#1a1410;--muted:#7a6e66;--border:rgba(100,80,60,0.15);--gold:#b8964a;}
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -51,261 +52,147 @@ main{max-width:860px;margin:0 auto;padding:4rem 1.5rem 6rem;}
 .map-image{margin-top:1rem;border:0.5px solid var(--border);background:#fff;padding:6px;}
 .map-caption{font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);margin-top:0.5rem;}
 @media(max-width:800px){.event-image-grid.more-pics{grid-template-columns:1fr;}}
+
+ul.event-desc{list-style:disc;margin-left:1.1rem;padding-left:0.25rem;}
+ul.event-desc li{margin-bottom:0.2rem;}
 footer{text-align:center;padding:3rem 2rem;font-size:12px;color:var(--muted);border-top:0.5px solid var(--border);letter-spacing:0.08em;}
 footer strong{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400;display:block;color:var(--deep);margin-bottom:0.5rem;}
 @media(max-width:600px){.event{grid-template-columns:70px 1fr;}.event::before{left:69px;}.day-number{font-size:3rem;}header h1{font-size:3rem;}.event-image-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body>
-
 <header>
-  <img class="hero-img" src="images/itinerary-image-01.webp" alt="Istanbul Bosphorus">
-  <div class="header-inner">
-    <p class="trip-label">BERK MAIN GIRLS take on</p>
-    <h1><em>Istanbul</em></h1>
-    <div class="ornament"><span>&#10022;</span></div>
-    <p class="header-meta">3 June &ndash; 10 June &nbsp;&middot;&nbsp; 2026</p>
-  </div>
+<img alt="Istanbul Bosphorus" class="hero-img" src="images/itinerary-image-01.webp"/>
+<div class="header-inner">
+<p class="trip-label">A Summer Itinerary</p>
+<h1><em>Istanbul</em></h1>
+<div class="ornament"><span>✦</span></div>
+<p class="header-meta">3 June – 10 June  ·  2026</p>
+</div>
 </header>
-
 <nav>
-  <a href="#thu">Thu 4</a>
-  <a href="#fri">Fri 5</a>
-  <a href="#sat">Sat 6</a>
-  <a href="#sun">Sun 7</a>
-  <a href="#mon">Mon 8</a>
-  <a href="#tue">Tue 9</a>
+<a href="#thu">Thu 4</a>
+<a href="#fri">Fri 5</a>
+<a href="#sat">Sat 6</a>
+<a href="#sun">Sun 7</a>
+<a href="#mon">Mon 8</a>
+<a href="#tue">Tue 9</a>
 </nav>
-
 <main>
-
 <!-- THURSDAY -->
 <div class="day-block" id="thu">
-  <div class="day-header">
-    <div class="day-number">4</div>
-    <div class="day-info">
-      <h2>Emirgan, Bebek, Galataport &amp; Karaköy</h2>
-      <p class="day-date">Thursday &middot; June 4</p>
-    </div>
-  </div>
-  <div class="events">
-    <div class="event">
-      <div class="event-time">Morning</div>
-      <div class="event-body">
-        <span class="event-tag">Breakfast</span>
-        <h3 class="event-title">Emirgan Sütiş</h3>
-        <p class="event-desc">Start the day with a classic Bosphorus-side Turkish breakfast at Emirgan Sütiş.</p>
-        <div class="event-image"><img src="images/itinerary-image-07.jpg" alt="Turkish breakfast spread"></div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Late Morning</div>
-      <div class="event-body">
-        <span class="event-tag">Walk</span>
-        <h3 class="event-title">Bebek Walk</h3>
-        <p class="event-desc">Walk along the Bebek waterfront and enjoy the Bosphorus views.</p>
-        <div class="event-image"><img src="images/bebek-sahil1.png" alt="Bebek walk along the Bosphorus waterfront"></div>
-        <div class="event-image map-image"><img src="images/map-bebek.png" alt="Bebek map location"></div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Afternoon</div>
-      <div class="event-body">
-        <span class="event-tag">Coffee</span>
-        <h3 class="event-title">Coffee at Mangerie</h3>
-        <p class="event-desc">Stop at Mangerie for coffee and a relaxed Bebek break.</p>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Afternoon</div>
-      <div class="event-body">
-        <span class="event-tag">Boat</span>
-        <h3 class="event-title">Boat Transfer to Galataport</h3>
-        <p class="event-desc">Cross toward Galataport by boat and arrive on the Karaköy side from the water.</p>
-        <div class="event-image"><img src="images/itinerary-image-08.webp" alt="Bosphorus boat crossing Istanbul"></div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Evening</div>
-      <div class="event-body">
-        <span class="event-tag">Dinner</span>
-        <h3 class="event-title">Karaköy Dinner</h3>
-        <p class="event-desc">End the day with dinner in Karaköy.</p>
-        <div class="event-image"><img src="images/karakoy-dinner.jpg" alt="Karaköy dinner by the Bosphorus"></div>
-      </div>
-    </div>
-  </div>
+<div class="day-header">
+<div class="day-number">4</div>
+<div class="day-info">
+<h2>Emirgan, Bebek, Galataport &amp; Karaköy</h2>
+<p class="day-date">Thursday · June 4</p>
 </div>
-
+</div>
+<div class="events"><div class="event"><div class="event-time">Morning</div><div class="event-body"><span class="event-tag">Breakfast</span><h3 class="event-title">Emirgan Sütiş</h3><ul class="event-desc"><li>Start the day with a classic Bosphorus-side Turkish breakfast at Emirgan Sütiş.</li></ul><div class="event-image"><img alt="Turkish breakfast spread" src="images/itinerary-image-07.jpg"/></div></div></div><div class="event"><div class="event-time">Late Morning</div><div class="event-body"><span class="event-tag">Walk</span><h3 class="event-title">Bebek Walk</h3><ul class="event-desc"><li>Walk along the Bebek waterfront and enjoy the Bosphorus views.</li></ul><div class="event-image"><img alt="Bebek walk along the Bosphorus waterfront" src="images/bebek-walk.jpeg"/></div><div class="event-image map-image"><img alt="Bebek map location" src="images/map-bebek.png"/></div></div></div><div class="event"><div class="event-time">Afternoon</div><div class="event-body"><span class="event-tag">Boat</span><h3 class="event-title">Boat Tour!</h3><ul class="event-desc"><li>Take the boat across the Bosphorus toward Galataport.</li><li>Arrive on the Karaköy side from the water.</li></ul><div class="event-image"><img alt="Boat tour on the Bosphorus" src="images/boat-tour.jpeg"/></div></div></div><div class="event"><div class="event-time">Afternoon</div><div class="event-body"><span class="event-tag">Museum</span><h3 class="event-title">Istanbul Modern</h3><ul class="event-desc"><li>Visit Istanbul Modern at Galataport before dinner.</li></ul></div></div><div class="event"><div class="event-time">Evening</div><div class="event-body"><span class="event-tag">Dinner</span><h3 class="event-title">Karaköy Dinner</h3><ul class="event-desc"><li>End the day with dinner in Karaköy.</li></ul><div class="event-image-grid"><img alt="Karaköy dinner" src="images/karakoy-dinner-new.jpg"/><img alt="Kebab dinner" src="images/kebap.jpg"/></div></div></div></div>
+</div>
 <!-- FRIDAY -->
 <div class="day-block" id="fri">
-  <div class="day-header">
-    <div class="day-number">5</div>
-    <div class="day-info">
-      <h2>Historical Peninsula &amp; Family Dinner</h2>
-      <p class="day-date">Friday &middot; June 5</p>
-    </div>
-  </div>
-  <div class="events">
-    <div class="event">
-      <div class="event-time">10:00&ndash;16:00</div>
-      <div class="event-body">
-        <span class="event-tag">Full Day</span>
-        <h3 class="event-title">Tour of the Historical Peninsula &amp; Grand Bazaar</h3>
-        <p class="event-desc">Sultanahmet, Hagia Sophia, the Basilica Cistern, Topkapi Palace, and the Grand Bazaar — with local street food or lunch at a terrace café between stops.</p>
-        <div class="event-image-grid more-pics">
-          <img src="images/itinerary-image-05.jpg" alt="Hagia Sophia interior">
-          <img src="images/itinerary-image-06.jpg" alt="Blue Mosque interior">
-          <img src="images/grand-bazaar.jpg" alt="Grand Bazaar interior">
-        </div>
-        <div class="event-image map-image"><img src="images/map-historical-peninsula.jpg" alt="Historical Peninsula map"></div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Evening</div>
-      <div class="event-body">
-        <span class="event-tag">Dinner</span>
-        <h3 class="event-title">Shabbat at Home!</h3>
-      </div>
-    </div>
-  </div>
+<div class="day-header">
+<div class="day-number">5</div>
+<div class="day-info">
+<h2>Historical Peninsula &amp; Family Dinner</h2>
+<p class="day-date">Friday · June 5</p>
 </div>
-
+</div>
+<div class="events">
+<div class="event">
+<div class="event-time">10:00–16:00</div>
+<div class="event-body">
+<span class="event-tag">Full Day</span>
+<h3 class="event-title">Tour of the Historical Peninsula &amp; Grand Bazaar</h3>
+<ul class="event-desc"><li>Sultanahmet, Hagia Sophia, the Basilica Cistern, Topkapı Palace, and the Grand Bazaar — with local street food or lunch at a terrace café between stops.</li></ul>
+<div class="event-image-grid more-pics">
+<img alt="Hagia Sophia interior" src="images/itinerary-image-05.jpg"/>
+<img alt="Blue Mosque interior" src="images/itinerary-image-06.jpg"/>
+<img alt="Grand Bazaar interior" src="images/grand-bazaar.jpg"/>
+</div>
+<div class="event-image map-image"><img alt="Historical Peninsula map" src="images/map-historical-peninsula.jpg"/></div>
+</div>
+</div>
+<div class="event">
+<div class="event-time">Evening</div>
+<div class="event-body">
+<span class="event-tag">Dinner</span>
+<h3 class="event-title">Shabbat at Home!</h3>
+</div>
+</div>
+</div>
+</div>
 <!-- SATURDAY -->
 <div class="day-block" id="sat">
-  <div class="day-header">
-    <div class="day-number">6</div>
-    <div class="day-info">
-      <h2>Rowing, Galata, Beyoğlu &amp; Cihangir</h2>
-      <p class="day-date">Saturday &middot; June 6</p>
-    </div>
-  </div>
-  <div class="events">
-    <div class="event">
-      <div class="event-time">08:00&ndash;10:00</div>
-      <div class="event-body">
-        <span class="event-tag">Morning</span>
-        <h3 class="event-title">Rowing</h3>
-        <p class="event-desc">Start the morning on the water.</p>
-        <div class="event-image"><img src="images/itinerary-image-02.jpg" alt="Rowing on the Golden Horn"></div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Midday</div>
-      <div class="event-body">
-        <span class="event-tag">Explore</span>
-        <h3 class="event-title">Galata &amp; Beyoğlu</h3>
-        <p class="event-desc">Walk around Galata, Beyoğlu and the surrounding streets.</p>
-        <div class="event-image-grid">
-          <img src="images/galata.jpg" alt="Galata Tower and surrounding Beyoğlu rooftops">
-          <img src="images/beyoglu.jpg" alt="Beyoğlu street scene">
-        </div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Afternoon</div>
-      <div class="event-body">
-        <span class="event-tag">Cihangir</span>
-        <h3 class="event-title">Cihangir Cafés &amp; Wandering</h3>
-        <p class="event-desc">Continue toward Cihangir for cafés, side streets, views and a slower afternoon.</p>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Evening</div>
-      <div class="event-body">
-        <span class="event-tag">TBD</span>
-        <h3 class="event-title">Dinner / Night Plan TBD</h3>
-        <p class="event-desc">Keep the evening flexible around Galata, Beyoğlu, Cihangir or Karaköy.</p>
-        <div class="event-image"><img src="images/itinerary-image-09.jpg" alt="Istanbul evening view"></div>
-      </div>
-    </div>
-  </div>
+<div class="day-header">
+<div class="day-number">6</div>
+<div class="day-info">
+<h2>Rowing, Galata, Beyoğlu &amp; Cihangir</h2>
+<p class="day-date">Saturday · June 6</p>
 </div>
-
+</div>
+<div class="events"><div class="event"><div class="event-time">08:00–10:00</div><div class="event-body"><span class="event-tag">Morning</span><h3 class="event-title">Rowing</h3><ul class="event-desc"><li>Start the morning on the water.</li></ul><div class="event-image"><img alt="Rowing on the Golden Horn" src="images/itinerary-image-02.jpg"/></div></div></div><div class="event"><div class="event-time">Midday</div><div class="event-body"><span class="event-tag">Explore</span><h3 class="event-title">Galata &amp; Beyoğlu</h3><ul class="event-desc"><li>Walk around Galata, Beyoğlu and the surrounding streets.</li></ul><div class="event-image-grid"><img alt="Galata Tower and surrounding Beyoğlu rooftops" src="images/galata.jpg"/><img alt="Beyoğlu street scene" src="images/beyoglu.jpg"/></div></div></div><div class="event"><div class="event-time">Afternoon</div><div class="event-body"><span class="event-tag">Culture</span><h3 class="event-title">SALT Galata</h3><ul class="event-desc"><li>Stop by SALT Galata for the building, exhibitions, and a beautiful cultural break around Galata.</li></ul><div class="event-image"><img alt="SALT Galata interior" src="images/salt-galata.jpg"/></div></div></div><div class="event"><div class="event-time">Afternoon</div><div class="event-body"><span class="event-tag">Cihangir</span><h3 class="event-title">Cihangir Cafés &amp; Wandering</h3><ul class="event-desc"><li>Continue toward Cihangir for cafés, side streets, views and a slower afternoon.</li></ul></div></div><div class="event"><div class="event-time">Evening</div><div class="event-body"><span class="event-tag">Night</span><h3 class="event-title">Drinks / going out!</h3><ul class="event-desc"><li>Keep the evening flexible around Galata, Beyoğlu, Cihangir or Karaköy.</li><li>Rooftop drinks, night views, and going out depending on the mood.</li></ul><div class="event-image-grid"><img alt="Beyoğlu drinks" src="images/beyoglu-drinks.jpg"/><img alt="Galata rooftop drinks" src="images/galata-rooftop-drinks.jpg"/><img alt="Beyoğlu night out" src="images/monkey-beyoglu-night.jpg"/><img alt="Istanbul night view" src="images/night-view.jpg"/></div></div></div></div>
+</div>
 <!-- SUNDAY -->
 <div class="day-block" id="sun">
-  <div class="day-header">
-    <div class="day-number">7</div>
-    <div class="day-info">
-      <h2>TBD</h2>
-      <p class="day-date">Sunday &middot; June 7</p>
-    </div>
-  </div>
-  <div class="events">
-    <div class="event">
-      <div class="event-time">TBD</div>
-      <div class="event-body">
-        <span class="event-tag">TBD</span>
-        <h3 class="event-title">TBD</h3>
-      </div>
-    </div>
-  </div>
+<div class="day-header">
+<div class="day-number">7</div>
+<div class="day-info">
+<h2>TBD</h2>
+<p class="day-date">Sunday · June 7</p>
 </div>
-
+</div>
+<div class="events"><div class="event"><div class="event-time">TBD</div><div class="event-body"><span class="event-tag">TBD</span><h3 class="event-title">TBD</h3></div></div></div>
+</div>
 <!-- MONDAY -->
 <div class="day-block" id="mon">
-  <div class="day-header">
-    <div class="day-number">8</div>
-    <div class="day-info">
-      <h2>Peaceful Princes&#39; Islands — Büyükada</h2>
-      <p class="day-date">Monday &middot; June 8</p>
-    </div>
-  </div>
-  <div class="events">
-    <div class="event">
-      <div class="event-time">10:30&ndash;18:00</div>
-      <div class="event-body">
-        <span class="event-tag">Full Day</span>
-        <h3 class="event-title">Ferry to Büyükada — The Princes&#39; Island</h3>
-        <p class="event-desc">Expect lots of biking, prettiest views, my fav foods and my childhood! Idk if the weather will be good enough to swim so tbd.</p>
-        <div class="event-image"><img src="images/itinerary-image-10.webp" alt="Büyükada island"></div>
-        <div class="event-image map-image"><img src="images/map-buyukada.svg" alt="Büyükada map"></div>
-      </div>
-    </div>
-  </div>
+<div class="day-header">
+<div class="day-number">8</div>
+<div class="day-info">
+<h2>Peaceful Princes' Islands — Büyükada</h2>
+<p class="day-date">Monday · June 8</p>
 </div>
-
+</div>
+<div class="events"><div class="event"><div class="event-time">10:30–18:00</div><div class="event-body"><span class="event-tag">Full Day</span><h3 class="event-title">Ferry to Büyükada — The Princes' Island</h3><ul class="event-desc"><li>Expect lots of biking, prettiest views, my fav foods and my childhood!</li><li>Idk if the weather will be good enough to swim so tbd.</li></ul><div class="event-image-grid more-pics"><img alt="Büyükada sunset meal" src="images/buyukada-1.jpg"/><img alt="Büyükada view" src="images/buyukada-2.jpg"/><img alt="Büyükada sea view" src="images/buyukada-sea.jpg"/></div><div class="event-image map-image"><img alt="Büyükada map" src="images/map-buyukada.svg"/></div></div></div></div>
+</div>
 <!-- TUESDAY -->
 <div class="day-block" id="tue">
-  <div class="day-header">
-    <div class="day-number">9</div>
-    <div class="day-info">
-      <h2>Kadıköy &amp; Moda Vibes</h2>
-      <p class="day-date">Tuesday &middot; June 9</p>
-    </div>
-  </div>
-  <div class="events">
-    <div class="event">
-      <div class="event-time">Afternoon</div>
-      <div class="event-body">
-        <span class="event-tag">Asian Side</span>
-        <h3 class="event-title">Kadıköy Bazaar &amp; Moda Coastline</h3>
-        <p class="event-desc">We're taking the ferry to the Asian side!! Going to Kadıköy &amp; Moda, which is a hip, fun, artsy, different part of Istanbul. So fun!!</p>
-        <div class="event-image map-image"><img src="images/map-kadikoy.svg" alt="Kadıköy map"></div>
-        <div class="event-image-grid more-pics">
-          <img src="images/itinerary-image-11.jpg" alt="Kadıköy umbrella street">
-          <img src="images/itinerary-image-08.webp" alt="Ferry toward the Asian side">
-          <img src="images/itinerary-image-09.jpg" alt="Istanbul waterfront evening">
-        </div>
-      </div>
-    </div>
-    <div class="event">
-      <div class="event-time">Evening</div>
-      <div class="event-body">
-        <span class="event-tag">Dinner</span>
-        <h3 class="event-title">Dinner</h3>
-      </div>
-    </div>
-  </div>
+<div class="day-header">
+<div class="day-number">9</div>
+<div class="day-info">
+<h2>Kadıköy &amp; Moda Vibes</h2>
+<p class="day-date">Tuesday · June 9</p>
 </div>
-
+</div>
+<div class="events">
+<div class="event">
+<div class="event-time">Afternoon</div>
+<div class="event-body">
+<span class="event-tag">Asian Side</span>
+<h3 class="event-title">Kadıköy Bazaar &amp; Moda Coastline</h3>
+<ul class="event-desc"><li>We're taking the ferry to the Asian side!! Going to Kadıköy &amp; Moda, which is a hip, fun, artsy, different part of Istanbul. So fun!!</li></ul>
+<div class="event-image map-image"><img alt="Kadıköy map" src="images/map-kadikoy.svg"/></div>
+<div class="event-image-grid more-pics">
+<img alt="Kadıköy umbrella street" src="images/itinerary-image-11.jpg"/>
+<img alt="Ferry toward the Asian side" src="images/itinerary-image-08.webp"/>
+<img alt="Istanbul waterfront evening" src="images/itinerary-image-09.jpg"/>
+</div>
+</div>
+</div>
+<div class="event">
+<div class="event-time">Evening</div>
+<div class="event-body">
+<span class="event-tag">Dinner</span>
+<h3 class="event-title">Dinner</h3>
+</div>
+</div>
+</div>
+</div>
 </main>
-
-
 <footer>
-  <strong>Istanbul &middot; June 2026</strong>
-  6 days &nbsp;&middot;&nbsp; 2 continents &nbsp;&middot;&nbsp; countless memories
+<strong>Istanbul · June 2026</strong>
+  6 days  ·  2 continents  ·  countless memories
 </footer>
-
 </body>
 </html>
